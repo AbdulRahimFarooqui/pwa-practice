@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.confNoti{
+  border-radius: 40px;
+  background-color: rgb(241, 92, 255);
+  color: black;
+  font-weight: 900;
+  box-shadow: 1px  20px black;
+  padding: 20px 20px;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  margin-left: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.confNoti:hover{
+  box-shadow: 1px  5px black;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgb(43, 251, 182);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  box-shadow:0 0 10px gray;
+  padding: 15px 50px;
+  margin-top: 15px;
+  /* border-radius: 100px; */
+  border-bottom: 10px;
+  background-color: aqua;
 }
+.app-name{
+  text-align: center;
+  padding-right: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.totals{
+  display: flex;
+  justify-content: space-around;
+  box-shadow:  15px 20px black;
+  background-color: lightsalmon;
+  border-radius: 100px;
+}
+.history{
+  margin:0;
+  padding:0;
+  /* padding-bottom: 10px; */
+  
+}
+.history>li{
+  display: flex ;
+  justify-content: space-between;
+  box-shadow:  5px 10px black;
+  padding: 10px 15px;
+  background-color:  cornflowerblue;
+  margin: 13px 0;
+  border-radius: 100px;
+}
+.balance{
+  text-align: center;
+  font-size: xx-large;
+  background-color:mediumspringgreen;
+  box-shadow:10px 19px black;
+  border-radius: 100px;
+}
+.input-desc{
+  background-color: deepskyblue;
+}
+.input-amount{
+  background-color: deepskyblue;
+}
+.buttons{
+  padding-top: 15px;
+  display:flex;
+  justify-content: space-between;
+  /* background-color: lightpink; */
+  size: 10px 10px;
 }
